@@ -292,7 +292,7 @@ public class AsyncMessageReaderTest {
         Thread testThread = Thread.currentThread();
         Thread interruptThread = new Thread(() -> {
             try {
-                Thread.sleep(100000);
+                Thread.sleep(1000);
             } catch (InterruptedException ex) {
                 return;
             }
